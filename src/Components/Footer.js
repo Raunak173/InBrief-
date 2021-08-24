@@ -8,6 +8,9 @@ const useStyles = makeStyles({
         flexDirection: "column",
         alignItems: "center",
         color: "white",
+        position: 'fixed',
+        bottom: 0,
+        width: '100%'
       },
       name: {
         fontSize: "20px",

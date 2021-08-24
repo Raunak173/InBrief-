@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme=>({
     flexDirection: 'column',
     padding: '3%',
     boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('sm')]: { //This means that if size is greater than small then do this.
       flexDirection: 'row',
     },
   },
